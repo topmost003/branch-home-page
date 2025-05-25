@@ -119,6 +119,36 @@ img { max-width: 300px;
 }
 
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 50px;
+    text-align: center;
+
+
+    p{ 
+        font-size:18px ;
+        font-weight:400 ;
+        line-height: 26px;
+        max-width: 280px;
+        padding: 20px;
+    }
+
+    h2{ 
+        line-height: 32px;
+    }
+}
+
+
+.gridbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+
 
 
 
